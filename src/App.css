@@ -1,0 +1,195 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#toolbarleft {
+  width: 50%;
+  text-align: left;
+}
+
+#toolbar {
+  width: 50%;
+  display:flex;
+  flex-direction: row-reverse;
+  text-align: right;
+  align-items: center;
+}
+
+#login {
+  width: 100%;
+  height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+  margin:0 auto 0 auto;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+#paper {
+  width: 30%;
+  min-width: 300px;
+  min-height: 400px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#body {
+  width: 100%;
+  min-height: 800px;
+  display: flex;
+  flex-direction: row;
+}
+
+#body-right {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+#content {
+  width: 60%;
+
+  /*background-color: violet;*/
+  padding-right: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+#content-2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#header-competition {
+  width: 100%;
+  font-family: "Trebuchet MS", sans-serif;
+  /*background-color: #61dafb;*/
+
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#button-inscription {
+  text-align : center;
+  margin-top: 50px;
+}
+
+#content-body {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align : center;
+  /*background-color: blue;*/
+}
+
+#pdf-reader:nth-child(1) {
+  width: 50%;
+  order: 1;
+}
+
+#competition-info:nth-child(2) {
+  width: 50%;
+  order: 1;
+  /*background-color: purple;*/
+}
+
+#list-competition {
+  border-left: 2px solid grey;
+  width: 37%;
+  min-width: 100px;
+
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#list-competition-bar {
+  width: 3%;
+
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  justify-content: center;
+
+}
+#table-competition{
+  width: 100%;
+  order: 1;
+}
+
+#new-competition{
+  order: 2;
+  padding-top: 20px;
+  margin:0 auto 0 auto;
+}
+
+#select {
+  padding: 10px 10px 10px 10px;
+  min-width: 200px;
+}
+
+#select-depart {
+  padding: 10px 10px 10px 10px;
+  margin-top: 10px;
+  min-width: 200px;
+}
+
+#title {
+  text-align: center;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+#body-club {
+
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
