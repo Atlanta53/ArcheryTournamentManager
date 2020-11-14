@@ -25,6 +25,13 @@ All the component are separate into distinct repositories and files names (Selec
     - Edit `npm` : replace the command `install` by `run`
  - Run `server.js` with Nodejs (with the good name and password to the database)
  - Run the React Application <br />
+ 
+#### User information : 
+
+You just have to create a new user. This user will have the admin right to 0. 
+If you want this user to be admin, you just have to modify directly the database by putting admin to 1.
+
+
 
 ## Available Scripts
 
