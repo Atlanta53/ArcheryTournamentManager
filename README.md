@@ -1,4 +1,6 @@
 ![Header](https://github.com/Atlanta53/ArcheryTournamentManager/blob/master/public/banner.png "Header")
+<p dir="rtl">Wallpaper &#169; 2020 Elsina Chauvelier</p>
+
 
 # Project
 
